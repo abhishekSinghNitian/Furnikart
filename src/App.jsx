@@ -13,7 +13,7 @@ import SignIn from './Components/SignIn'
 import Profile from './Components/Profile'
 import Wishlist from './Components/Wishlist.jsx'
 
-const AdminApp = lazy(() => import('../Admin/admin-harison-react/src/App.jsx'))
+const AdminApp = lazy(() => import('./Admin/src/App.jsx'))
 
 function App() {
   const [cartCount, setCartCount] = useState(0)
